@@ -55,9 +55,9 @@
 
 | Plan Tier | Price | NVMe Storage | Websites | Free Auto-SSL | DDoS Shield | Instant Order |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| **🚀 Starter** | **₹29** <small>/mo</small> | `1 GB NVMe` | 1 Domain | 🔒 Included | 🛡️ Active | <a href="https://bracknodes.in/webhost"><img src="./assets/btn-order.svg" height="22" alt="Order"></a> |
-| **💼 Basic** | **₹49** <small>/mo</small> | `3 GB NVMe` | 2 Domains | 🔒 Included | 🛡️ Active | <a href="https://bracknodes.in/webhost"><img src="./assets/btn-order.svg" height="22" alt="Order"></a> |
-| **🔥 Professional** <br><sub>⭐ BEST VALUE</sub> | **₹99** <small>/mo</small> | `10 GB NVMe` | 5 Domains | 🔒 Included | 🛡️ Active | <a href="https://bracknodes.in/webhost"><img src="./assets/btn-order.svg" height="22" alt="Order"></a> |
+| **🚀 Starter** | **₹29** <small>/mo</small> | `1 GB NVMe` | 1 Domain | 🔒 Included | 🛡️ Active | <a href="https://bracknodes.in/webhost"><img src="./assets/btn-order.svg" height="18" alt="Order"></a> |
+| **💼 Basic** | **₹49** <small>/mo</small> | `3 GB NVMe` | 2 Domains | 🔒 Included | 🛡️ Active | <a href="https://bracknodes.in/webhost"><img src="./assets/btn-order.svg" height="18" alt="Order"></a> |
+| **🔥 Professional** <br><sub>⭐ BEST VALUE</sub> | **₹99** <small>/mo</small> | `10 GB NVMe` | 5 Domains | 🔒 Included | 🛡️ Active | <a href="https://bracknodes.in/webhost"><img src="./assets/btn-order.svg" height="18" alt="Order"></a> |
 
 <p align="right">
   <a href="https://bracknodes.in/webhost">
@@ -72,10 +72,10 @@
 
 | Plan Tier | Price | NVMe Storage | Backups & Git | Support Level | Instant Order |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| **⚡ FS&#8209;Starter** | **₹199** <small>/mo</small> | `15 GB NVMe` | 🔄 Daily Auto · Git ✅ | Standard | <a href="https://bracknodes.in/flagship-webhost"><img src="./assets/btn-deploy.svg" height="22" alt="Deploy"></a> |
-| **💼 FS&#8209;Business** <br><sub>🔥 MOST POPULAR</sub> | **₹299** <small>/mo</small> | `35 GB NVMe` | 🔄 Daily Auto · Git ✅ | Priority 24/7 | <a href="https://bracknodes.in/flagship-webhost"><img src="./assets/btn-deploy.svg" height="22" alt="Deploy"></a> |
-| **🚀 FS&#8209;Professional** | **₹499** <small>/mo</small> | `70 GB NVMe` | 🔄 Daily Auto · Git ✅ | Priority 24/7 | <a href="https://bracknodes.in/flagship-webhost"><img src="./assets/btn-deploy.svg" height="22" alt="Deploy"></a> |
-| **💎 FS&#8209;Premium** <br><sub>👑 MAX RESOURCES</sub> | **₹699** <small>/mo</small> | `120 GB NVMe` | 🔄 Daily Auto · Git ✅ | VIP Dedicated | <a href="https://bracknodes.in/flagship-webhost"><img src="./assets/btn-deploy.svg" height="22" alt="Deploy"></a> |
+| **⚡ FS&#8209;Starter** | **₹199** <small>/mo</small> | `15 GB NVMe` | 🔄 Daily Auto · Git ✅ | Standard | <a href="https://bracknodes.in/flagship-webhost"><img src="./assets/btn-deploy.svg" height="18" alt="Deploy"></a> |
+| **💼 FS&#8209;Business** <br><sub>🔥 MOST POPULAR</sub> | **₹299** <small>/mo</small> | `35 GB NVMe` | 🔄 Daily Auto · Git ✅ | Priority 24/7 | <a href="https://bracknodes.in/flagship-webhost"><img src="./assets/btn-deploy.svg" height="18" alt="Deploy"></a> |
+| **🚀 FS&#8209;Professional** | **₹499** <small>/mo</small> | `70 GB NVMe` | 🔄 Daily Auto · Git ✅ | Priority 24/7 | <a href="https://bracknodes.in/flagship-webhost"><img src="./assets/btn-deploy.svg" height="18" alt="Deploy"></a> |
+| **💎 FS&#8209;Premium** <br><sub>👑 MAX RESOURCES</sub> | **₹699** <small>/mo</small> | `120 GB NVMe` | 🔄 Daily Auto · Git ✅ | VIP Dedicated | <a href="https://bracknodes.in/flagship-webhost"><img src="./assets/btn-deploy.svg" height="18" alt="Deploy"></a> |
 
 <p align="right">
   <a href="https://bracknodes.in/flagship-webhost">
@@ -91,10 +91,10 @@
 
 | Bot Tier | Price | Dedicated RAM | CPU Core | NVMe Storage | Databases | Instant Launch |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| **🤖 Starter** | **₹29** <small>/mo</small> | `512 MB RAM` | 50% CPU | `1 GB NVMe` | 1 MySQL | <a href="https://bracknodes.in/discord"><img src="./assets/btn-launch.svg" height="22" alt="Launch"></a> |
-| **⚡ Basic** | **₹49** <small>/mo</small> | `1 GB RAM` | 100% CPU | `2 GB NVMe` | 2 MySQL | <a href="https://bracknodes.in/discord"><img src="./assets/btn-launch.svg" height="22" alt="Launch"></a> |
-| **🔥 Premium** <br><sub>⭐ POPULAR</sub> | **₹79** <small>/mo</small> | `2 GB RAM` | 200% CPU | `4 GB NVMe` | 4 MySQL | <a href="https://bracknodes.in/discord"><img src="./assets/btn-launch.svg" height="22" alt="Launch"></a> |
-| **👑 Enterprise** | **₹99** <small>/mo</small> | `3 GB DDR4` | 250% CPU | `6 GB NVMe` | 6 MySQL | <a href="https://bracknodes.in/discord"><img src="./assets/btn-launch.svg" height="22" alt="Launch"></a> |
+| **🤖 Starter** | **₹29** <small>/mo</small> | `512 MB RAM` | 50% CPU | `1 GB NVMe` | 1 MySQL | <a href="https://bracknodes.in/discord"><img src="./assets/btn-launch.svg" height="18" alt="Launch"></a> |
+| **⚡ Basic** | **₹49** <small>/mo</small> | `1 GB RAM` | 100% CPU | `2 GB NVMe` | 2 MySQL | <a href="https://bracknodes.in/discord"><img src="./assets/btn-launch.svg" height="18" alt="Launch"></a> |
+| **🔥 Premium** <br><sub>⭐ POPULAR</sub> | **₹79** <small>/mo</small> | `2 GB RAM` | 200% CPU | `4 GB NVMe` | 4 MySQL | <a href="https://bracknodes.in/discord"><img src="./assets/btn-launch.svg" height="18" alt="Launch"></a> |
+| **👑 Enterprise** | **₹99** <small>/mo</small> | `3 GB DDR4` | 250% CPU | `6 GB NVMe` | 6 MySQL | <a href="https://bracknodes.in/discord"><img src="./assets/btn-launch.svg" height="18" alt="Launch"></a> |
 
 <p align="right">
   <a href="https://bracknodes.in/discord">
