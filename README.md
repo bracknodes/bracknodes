@@ -20,16 +20,16 @@
 
 <p align="center">
   <a href="https://bracknodes.in">
-    <img src="https://img.shields.io/badge/🌐_Website-bracknodes.in-F59E0B?style=for-the-badge&labelColor=0F172A" alt="Website">
+    <img src="https://img.shields.io/badge/Website-bracknodes.in-F59E0B?style=for-the-badge&labelColor=0F172A" alt="Website">
   </a>&nbsp;
   <a href="https://bracknodes.in/billing">
-    <img src="https://img.shields.io/badge/🚀_Client_Portal-Billing_&_Orders-10B981?style=for-the-badge&labelColor=0F172A" alt="Order">
+    <img src="https://img.shields.io/badge/Client_Portal-Billing_&_Orders-10B981?style=for-the-badge&labelColor=0F172A" alt="Order">
   </a>&nbsp;
   <a href="https://discord.gg/dmRSDU2mXm">
-    <img src="https://img.shields.io/badge/💬_Community-Join_Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0F172A" alt="Discord">
+    <img src="https://img.shields.io/badge/Community-Join_Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white&labelColor=0F172A" alt="Discord">
   </a>&nbsp;
   <a href="https://bracknodes.in/services">
-    <img src="https://img.shields.io/badge/⚡_Infrastructure-Pure_NVMe-EC4899?style=for-the-badge&labelColor=0F172A" alt="Uptime">
+    <img src="https://img.shields.io/badge/Infrastructure-Pure_NVMe-EC4899?style=for-the-badge&labelColor=0F172A" alt="Uptime">
   </a>
 </p>
 
@@ -55,9 +55,9 @@
 
 | Plan Tier | Price | NVMe Storage | Websites | Free Auto-SSL | DDoS Shield | Instant Order |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| **🚀 Starter** | **₹29** <small>/mo</small> | `1 GB NVMe` | 1 Domain | 🔒 Included | 🛡️ Active | [**Order →**](https://bracknodes.in/webhost) |
-| **💼 Basic** | **₹49** <small>/mo</small> | `3 GB NVMe` | 2 Domains | 🔒 Included | 🛡️ Active | [**Order →**](https://bracknodes.in/webhost) |
-| **🔥 Professional** <br><sub>⭐ BEST VALUE</sub> | **₹99** <small>/mo</small> | `10 GB NVMe` | 5 Domains | 🔒 Included | 🛡️ Active | [**Order →**](https://bracknodes.in/webhost) |
+| **🚀 Starter** | **₹29** <small>/mo</small> | `1 GB NVMe` | 1 Domain | 🔒 Included | 🛡️ Active | [![Order](https://img.shields.io/badge/Order_%E2%86%92-F59E0B?style=for-the-badge&labelColor=D97706)](https://bracknodes.in/webhost) |
+| **💼 Basic** | **₹49** <small>/mo</small> | `3 GB NVMe` | 2 Domains | 🔒 Included | 🛡️ Active | [![Order](https://img.shields.io/badge/Order_%E2%86%92-F59E0B?style=for-the-badge&labelColor=D97706)](https://bracknodes.in/webhost) |
+| **🔥 Professional** <br><sub>⭐ BEST VALUE</sub> | **₹99** <small>/mo</small> | `10 GB NVMe` | 5 Domains | 🔒 Included | 🛡️ Active | [![Order](https://img.shields.io/badge/Order_%E2%86%92-F59E0B?style=for-the-badge&labelColor=D97706)](https://bracknodes.in/webhost) |
 
 <p align="right">
   <a href="https://bracknodes.in/webhost">
@@ -72,10 +72,10 @@
 
 | Plan Tier | Price | NVMe Storage | Backups & Git | Support Level | Instant Order |
 |:---|:---:|:---:|:---:|:---:|:---:|
-| **⚡ FS&#8209;Starter** | **₹199** <small>/mo</small> | `15 GB NVMe` | 🔄 Daily Auto · Git ✅ | Standard | [**Deploy →**](https://bracknodes.in/flagship-webhost) |
-| **💼 FS&#8209;Business** <br><sub>🔥 MOST POPULAR</sub> | **₹299** <small>/mo</small> | `35 GB NVMe` | 🔄 Daily Auto · Git ✅ | Priority 24/7 | [**Deploy →**](https://bracknodes.in/flagship-webhost) |
-| **🚀 FS&#8209;Professional** | **₹499** <small>/mo</small> | `70 GB NVMe` | 🔄 Daily Auto · Git ✅ | Priority 24/7 | [**Deploy →**](https://bracknodes.in/flagship-webhost) |
-| **💎 FS&#8209;Premium** <br><sub>👑 MAX RESOURCES</sub> | **₹699** <small>/mo</small> | `120 GB NVMe` | 🔄 Daily Auto · Git ✅ | VIP Dedicated | [**Deploy →**](https://bracknodes.in/flagship-webhost) |
+| **⚡ FS&#8209;Starter** | **₹199** <small>/mo</small> | `15 GB NVMe` | 🔄 Daily Auto · Git ✅ | Standard | [![Deploy](https://img.shields.io/badge/Deploy_%E2%86%92-F59E0B?style=for-the-badge&labelColor=D97706)](https://bracknodes.in/flagship-webhost) |
+| **💼 FS&#8209;Business** <br><sub>🔥 MOST POPULAR</sub> | **₹299** <small>/mo</small> | `35 GB NVMe` | 🔄 Daily Auto · Git ✅ | Priority 24/7 | [![Deploy](https://img.shields.io/badge/Deploy_%E2%86%92-F59E0B?style=for-the-badge&labelColor=D97706)](https://bracknodes.in/flagship-webhost) |
+| **🚀 FS&#8209;Professional** | **₹499** <small>/mo</small> | `70 GB NVMe` | 🔄 Daily Auto · Git ✅ | Priority 24/7 | [![Deploy](https://img.shields.io/badge/Deploy_%E2%86%92-F59E0B?style=for-the-badge&labelColor=D97706)](https://bracknodes.in/flagship-webhost) |
+| **💎 FS&#8209;Premium** <br><sub>👑 MAX RESOURCES</sub> | **₹699** <small>/mo</small> | `120 GB NVMe` | 🔄 Daily Auto · Git ✅ | VIP Dedicated | [![Deploy](https://img.shields.io/badge/Deploy_%E2%86%92-F59E0B?style=for-the-badge&labelColor=D97706)](https://bracknodes.in/flagship-webhost) |
 
 <p align="right">
   <a href="https://bracknodes.in/flagship-webhost">
@@ -91,10 +91,10 @@
 
 | Bot Tier | Price | Dedicated RAM | CPU Core | NVMe Storage | Databases | Instant Launch |
 |:---|:---:|:---:|:---:|:---:|:---:|:---:|
-| **🤖 Starter** | **₹29** <small>/mo</small> | `512 MB RAM` | 50% CPU | `1 GB NVMe` | 1 MySQL | [**Launch →**](https://bracknodes.in/discord) |
-| **⚡ Basic** | **₹49** <small>/mo</small> | `1 GB RAM` | 100% CPU | `2 GB NVMe` | 2 MySQL | [**Launch →**](https://bracknodes.in/discord) |
-| **🔥 Premium** <br><sub>⭐ POPULAR</sub> | **₹79** <small>/mo</small> | `2 GB RAM` | 200% CPU | `4 GB NVMe` | 4 MySQL | [**Launch →**](https://bracknodes.in/discord) |
-| **👑 Enterprise** | **₹99** <small>/mo</small> | `3 GB DDR4` | 250% CPU | `6 GB NVMe` | 6 MySQL | [**Launch →**](https://bracknodes.in/discord) |
+| **🤖 Starter** | **₹29** <small>/mo</small> | `512 MB RAM` | 50% CPU | `1 GB NVMe` | 1 MySQL | [![Launch](https://img.shields.io/badge/Launch_%E2%86%92-F59E0B?style=for-the-badge&labelColor=D97706)](https://bracknodes.in/discord) |
+| **⚡ Basic** | **₹49** <small>/mo</small> | `1 GB RAM` | 100% CPU | `2 GB NVMe` | 2 MySQL | [![Launch](https://img.shields.io/badge/Launch_%E2%86%92-F59E0B?style=for-the-badge&labelColor=D97706)](https://bracknodes.in/discord) |
+| **🔥 Premium** <br><sub>⭐ POPULAR</sub> | **₹79** <small>/mo</small> | `2 GB RAM` | 200% CPU | `4 GB NVMe` | 4 MySQL | [![Launch](https://img.shields.io/badge/Launch_%E2%86%92-F59E0B?style=for-the-badge&labelColor=D97706)](https://bracknodes.in/discord) |
+| **👑 Enterprise** | **₹99** <small>/mo</small> | `3 GB DDR4` | 250% CPU | `6 GB NVMe` | 6 MySQL | [![Launch](https://img.shields.io/badge/Launch_%E2%86%92-F59E0B?style=for-the-badge&labelColor=D97706)](https://bracknodes.in/discord) |
 
 <p align="right">
   <a href="https://bracknodes.in/discord">
