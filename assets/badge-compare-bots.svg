@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="365" height="36" viewBox="0 0 365 36" fill="none">
+  <defs>
+    <linearGradient id="discordGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5865F2" />
+      <stop offset="100%" stop-color="#4752C4" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#090D16" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-15%" width="110%" height="140%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <style>
+    .label-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: #F8FAFC;
+      letter-spacing: 0.2px;
+      dominant-baseline: middle;
+    }
+    .url-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 800;
+      fill: #FFFFFF;
+      letter-spacing: 0.3px;
+      dominant-baseline: middle;
+    }
+    .badge-frame {
+      transition: all 0.2s ease;
+    }
+    .badge-frame:hover {
+      filter: brightness(1.1);
+    }
+  </style>
+
+  <g class="badge-frame" filter="url(#shadow)">
+    <!-- Base pill container -->
+    <rect x="1" y="1" width="363" height="34" rx="8" fill="url(#bgGrad)" stroke="#334155" stroke-width="1" />
+
+    <!-- Left side: Bot / Discord Icon + Label -->
+    <g transform="translate(14, 9)">
+      <path d="M15.5 3.5C14.3 2.9 13 2.5 11.7 2.3c-.2.3-.4.8-.5 1.1-1.4-.2-2.8-.2-4.2 0-.2-.3-.4-.8-.6-1.1-1.3.2-2.6.6-3.8 1.2C.5 6.7-.1 10.9.1 15c1.6 1.2 3.1 1.9 4.6 2.3.4-.5.7-1 1-1.6-.5-.2-1-.5-1.5-.8.1-.1.2-.2.4-.3 3 .1.4 6 0 9 0 .1.1.2.2.4.3-.5.3-1 .6-1.5.8.3.6.6 1.1 1 1.6 1.5-.4 3-1.1 4.6-2.3.2-4.5-.5-8.7-2.5-11.5zM6 12.5c-.8 0-1.5-.7-1.5-1.6s.7-1.6 1.5-1.6 1.5.7 1.5 1.6-.7 1.6-1.5 1.6zm6 0c-.8 0-1.5-.7-1.5-1.6s.7-1.6 1.5-1.6 1.5.7 1.5 1.6-.7 1.6-1.5 1.6z" fill="#5865F2"/>
+    </g>
+    <text x="38" y="18" class="label-text">Explore 24/7 Bot Plans</text>
+
+    <!-- Right side: Discord Blurple Pill -->
+    <rect x="200" y="1" width="164" height="34" rx="8" fill="url(#discordGrad)" />
+    <path d="M200 1 h6 v34 h-6 z" fill="url(#discordGrad)" />
+
+    <!-- Right Side Text with Arrow -->
+    <text x="212" y="18" class="url-text">bracknodes.in/discord</text>
+    <path d="M349 14 l4 4 -4 4" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

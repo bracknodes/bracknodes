@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="36" viewBox="0 0 360 36" fill="none">
+  <defs>
+    <linearGradient id="emeraldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#090D16" />
+    </linearGradient>
+    <filter id="shadow" x="-5%" y="-15%" width="110%" height="140%" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="2" stdDeviation="3" flood-color="#000000" flood-opacity="0.35" />
+    </filter>
+  </defs>
+
+  <style>
+    .label-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      font-size: 12.5px;
+      font-weight: 700;
+      fill: #F8FAFC;
+      letter-spacing: 0.2px;
+      dominant-baseline: middle;
+    }
+    .url-text {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Inter, Helvetica, Arial, sans-serif;
+      font-size: 12px;
+      font-weight: 800;
+      fill: #FFFFFF;
+      letter-spacing: 0.3px;
+      dominant-baseline: middle;
+    }
+    .badge-frame {
+      transition: all 0.2s ease;
+    }
+    .badge-frame:hover {
+      filter: brightness(1.1);
+    }
+  </style>
+
+  <g class="badge-frame" filter="url(#shadow)">
+    <!-- Base pill container -->
+    <rect x="1" y="1" width="358" height="34" rx="8" fill="url(#bgGrad)" stroke="#334155" stroke-width="1" />
+
+    <!-- Left side: Lightning Icon + Label -->
+    <g transform="translate(14, 9)">
+      <path d="M10 2L3 11h6l-2 7 9-10h-6l2-6z" fill="#10B981" />
+    </g>
+    <text x="36" y="18" class="label-text">Compare Flagship Plans</text>
+
+    <!-- Right side: Emerald Pill -->
+    <rect x="194" y="1" width="165" height="34" rx="8" fill="url(#emeraldGrad)" />
+    <path d="M194 1 h6 v34 h-6 z" fill="url(#emeraldGrad)" />
+
+    <!-- Right Side Text with Arrow -->
+    <text x="206" y="18" class="url-text">bracknodes.in/flagship</text>
+    <path d="M344 14 l4 4 -4 4" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

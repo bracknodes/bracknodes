@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 160" width="100%" height="100%">
+  <defs>
+    <!-- Background Card Gradients -->
+    <linearGradient id="cardBgClean" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+
+    <!-- Top Accent Bar Gradients -->
+    <linearGradient id="amberStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#D97706" />
+    </linearGradient>
+
+    <linearGradient id="greenStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+
+    <linearGradient id="indigoStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#818CF8" />
+      <stop offset="100%" stop-color="#4F46E5" />
+    </linearGradient>
+
+    <linearGradient id="pinkStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#F472B6" />
+      <stop offset="100%" stop-color="#DB2777" />
+    </linearGradient>
+
+    <!-- Crisp Drop Shadow -->
+    <filter id="cleanShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.08" />
+    </filter>
+  </defs>
+
+  <!-- ==================== CARD 1: ₹29 / MONTH ==================== -->
+  <g transform="translate(10, 8)">
+    <rect width="280" height="144" rx="16" fill="url(#cardBgClean)" stroke="#CBD5E1" stroke-width="1.5" filter="url(#cleanShadow)" />
+    <rect width="280" height="5" rx="2.5" fill="url(#amberStripe)" />
+    
+    <!-- Top Category Pill -->
+    <rect x="20" y="20" width="110" height="22" rx="11" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1" />
+    <text x="75" y="35" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="800" fill="#B45309" letter-spacing="0.5">⚡ UNBEATABLE</text>
+
+    <!-- Main Value -->
+    <text x="20" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="900" fill="#D97706">₹29<tspan font-size="17" font-weight="700" fill="#64748B"> /mo</tspan></text>
+    
+    <!-- Clear Bold Subtitle -->
+    <text x="20" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="800" fill="#0F172A">NVMe cPanel Web Hosting</text>
+    
+    <!-- High-Contrast Feature Highlight -->
+    <rect x="20" y="109" width="240" height="24" rx="6" fill="#FFFBEB" stroke="#FDE68A" stroke-width="0.8" />
+    <text x="28" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#92400E">✔ Free SSL • 1-Click App Installer</text>
+  </g>
+
+  <!-- ==================== CARD 2: PURE NVMe ==================== -->
+  <g transform="translate(305, 8)">
+    <rect width="280" height="144" rx="16" fill="url(#cardBgClean)" stroke="#CBD5E1" stroke-width="1.5" filter="url(#cleanShadow)" />
+    <rect width="280" height="5" rx="2.5" fill="url(#greenStripe)" />
+    
+    <!-- Top Category Pill -->
+    <rect x="20" y="20" width="125" height="22" rx="11" fill="#D1FAE5" stroke="#A7F3D0" stroke-width="1" />
+    <text x="82" y="35" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="800" fill="#065F46" letter-spacing="0.5">🚀 STORAGE DISK</text>
+
+    <!-- Main Value -->
+    <text x="20" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="900" fill="#059669">Pure NVMe</text>
+    
+    <!-- Clear Bold Subtitle -->
+    <text x="20" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="800" fill="#0F172A">Enterprise Solid-State</text>
+    
+    <!-- High-Contrast Feature Highlight -->
+    <rect x="20" y="109" width="240" height="24" rx="6" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="0.8" />
+    <text x="28" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#047857">✔ Ultra-Fast I/O • Zero Lag Latency</text>
+  </g>
+
+  <!-- ==================== CARD 3: 99.99% SLA ==================== -->
+  <g transform="translate(600, 8)">
+    <rect width="280" height="144" rx="16" fill="url(#cardBgClean)" stroke="#CBD5E1" stroke-width="1.5" filter="url(#cleanShadow)" />
+    <rect width="280" height="5" rx="2.5" fill="url(#indigoStripe)" />
+    
+    <!-- Top Category Pill -->
+    <rect x="20" y="20" width="120" height="22" rx="11" fill="#EDE9FE" stroke="#DDD6FE" stroke-width="1" />
+    <text x="80" y="35" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="800" fill="#5B21B6" letter-spacing="0.5">🛡️ AVAILABILITY</text>
+
+    <!-- Main Value -->
+    <text x="20" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="34" font-weight="900" fill="#4F46E5">99.99%</text>
+    
+    <!-- Clear Bold Subtitle -->
+    <text x="20" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="800" fill="#0F172A">High Availability SLA</text>
+    
+    <!-- High-Contrast Feature Highlight -->
+    <rect x="20" y="109" width="240" height="24" rx="6" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="0.8" />
+    <text x="28" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#6D28D9">✔ DDoS Protection Shield</text>
+  </g>
+
+  <!-- ==================== CARD 4: 24/7 HUMAN SUPPORT ==================== -->
+  <g transform="translate(895, 8)">
+    <rect width="295" height="144" rx="16" fill="url(#cardBgClean)" stroke="#CBD5E1" stroke-width="1.5" filter="url(#cleanShadow)" />
+    <rect width="295" height="5" rx="2.5" fill="url(#pinkStripe)" />
+    
+    <!-- Top Category Pill -->
+    <rect x="20" y="20" width="135" height="22" rx="11" fill="#FCE7F3" stroke="#FBCFE8" stroke-width="1" />
+    <text x="87" y="35" text-anchor="middle" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="10.5" font-weight="800" fill="#9D174D" letter-spacing="0.5">💬 LIVE HUMAN</text>
+
+    <!-- Main Value -->
+    <text x="20" y="74" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="32" font-weight="900" fill="#DB2777">24/7 Support</text>
+    
+    <!-- Clear Bold Subtitle -->
+    <text x="20" y="98" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13.5" font-weight="800" fill="#0F172A">Real Team • Discord &amp; Tickets</text>
+    
+    <!-- High-Contrast Feature Highlight -->
+    <rect x="20" y="109" width="255" height="24" rx="6" fill="#FDF2F8" stroke="#FBCFE8" stroke-width="0.8" />
+    <text x="28" y="125" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="11.5" font-weight="700" fill="#BE185D">✔ support@bracknodes.in</text>
+  </g>
+</svg>

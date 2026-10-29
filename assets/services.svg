@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 290" width="100%" height="100%">
+  <defs>
+    <linearGradient id="srvCardBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+
+    <linearGradient id="amberStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+
+    <linearGradient id="greenStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34D399" />
+      <stop offset="100%" stop-color="#10B981" />
+    </linearGradient>
+
+    <linearGradient id="purpleStripe" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#A78BFA" />
+      <stop offset="100%" stop-color="#7C3AED" />
+    </linearGradient>
+
+    <filter id="srvShadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="5" stdDeviation="8" flood-color="#0F172A" flood-opacity="0.06" />
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes floatY {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-4px); }
+    }
+    .float-1 { animation: floatY 5s ease-in-out infinite; }
+    .float-2 { animation: floatY 5s ease-in-out infinite 1.6s; }
+    .float-3 { animation: floatY 5s ease-in-out infinite 3.2s; }
+  </style>
+
+  <!-- Service Card 1: Web Hosting (Positioned at X=15) -->
+  <g transform="translate(15, 8)">
+    <g class="float-1">
+      <rect width="375" height="272" rx="16" fill="url(#srvCardBg)" stroke="#CBD5E1" stroke-width="1.2" filter="url(#srvShadow)" />
+      <rect width="375" height="5" rx="2.5" fill="url(#amberStripe)" />
+      
+      <circle cx="56" cy="56" r="26" fill="#FEF3C7" stroke="#F59E0B" stroke-width="1.5" />
+      <text x="56" y="63" text-anchor="middle" font-size="22">🌐</text>
+      
+      <text x="96" y="48" font-family="-apple-system, sans-serif" font-size="19" font-weight="900" fill="#0F172A">NVMe Web Hosting</text>
+      <text x="96" y="68" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#D97706">cPanel • MySQL • Free SSL • Migration</text>
+      
+      <line x1="24" y1="92" x2="350" y2="92" stroke="#E2E8F0" stroke-width="1" />
+      
+      <text x="24" y="120" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#F59E0B" font-weight="900">✔</tspan>  Cheap Tier: <tspan font-weight="800" fill="#0F172A">From ₹29/mo</tspan> (Starter)</text>
+      <text x="24" y="145" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#F59E0B" font-weight="900">✔</tspan>  Flagship Tier: <tspan font-weight="800" fill="#0F172A">Daily Backups &amp; Node.js</tspan></text>
+      <text x="24" y="170" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#F59E0B" font-weight="900">✔</tspan>  Free Website Migration with Zero Downtime</text>
+      <text x="24" y="195" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#F59E0B" font-weight="900">✔</tspan>  Low Latency Tier-3 Data Center (India)</text>
+      
+      <rect x="24" y="220" width="327" height="36" rx="8" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1" />
+      <text x="187" y="243" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="800" fill="#B45309">Starter ₹29 • Basic ₹49 • Pro ₹99/mo</text>
+    </g>
+  </g>
+
+  <!-- Service Card 2: Discord Bot Hosting (Positioned at X=412) -->
+  <g transform="translate(412, 8)">
+    <g class="float-2">
+      <rect width="375" height="272" rx="16" fill="url(#srvCardBg)" stroke="#CBD5E1" stroke-width="1.2" filter="url(#srvShadow)" />
+      <rect width="375" height="5" rx="2.5" fill="url(#greenStripe)" />
+      
+      <circle cx="56" cy="56" r="26" fill="#D1FAE5" stroke="#10B981" stroke-width="1.5" />
+      <text x="56" y="63" text-anchor="middle" font-size="22">🤖</text>
+      
+      <text x="96" y="48" font-family="-apple-system, sans-serif" font-size="19" font-weight="900" fill="#0F172A">Discord Bot Hosting</text>
+      <text x="96" y="68" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#059669">Node.js • Python • Java • Always-On</text>
+      
+      <line x1="24" y1="92" x2="350" y2="92" stroke="#E2E8F0" stroke-width="1" />
+      
+      <text x="24" y="120" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#10B981" font-weight="900">✔</tspan>  Starter (512MB RAM): <tspan font-weight="800" fill="#0F172A">Only ₹29/mo</tspan></text>
+      <text x="24" y="145" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#10B981" font-weight="900">✔</tspan>  Enterprise (3GB RAM): <tspan font-weight="800" fill="#0F172A">250% CPU, 6 DBs</tspan></text>
+      <text x="24" y="170" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#10B981" font-weight="900">✔</tspan>  Zero Sleep Mode — Bot Never Goes Offline</text>
+      <text x="24" y="195" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#10B981" font-weight="900">✔</tspan>  Auto-Restart on Crash + Pterodactyl Panel</text>
+      
+      <rect x="24" y="220" width="327" height="36" rx="8" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1" />
+      <text x="187" y="243" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="800" fill="#047857">₹29 • ₹49 • ₹79 • ₹99 — 24/7 Online</text>
+    </g>
+  </g>
+
+  <!-- Service Card 3: VPS (Positioned at X=810) -->
+  <g transform="translate(810, 8)">
+    <g class="float-3">
+      <rect width="375" height="272" rx="16" fill="url(#srvCardBg)" stroke="#CBD5E1" stroke-width="1.2" filter="url(#srvShadow)" />
+      <rect width="375" height="5" rx="2.5" fill="url(#purpleStripe)" />
+      
+      <circle cx="56" cy="56" r="26" fill="#EDE9FE" stroke="#8B5CF6" stroke-width="1.5" />
+      <text x="56" y="63" text-anchor="middle" font-size="22">🖥️</text>
+      
+      <text x="96" y="48" font-family="-apple-system, sans-serif" font-size="19" font-weight="900" fill="#0F172A">High-Compute VPS</text>
+      <text x="96" y="68" font-family="-apple-system, sans-serif" font-size="12" font-weight="700" fill="#6D28D9">KVM • Dedicated NVMe • Root Access</text>
+      
+      <line x1="24" y1="92" x2="350" y2="92" stroke="#E2E8F0" stroke-width="1" />
+      
+      <text x="24" y="120" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#8B5CF6" font-weight="900">✔</tspan>  Budget, Performance &amp; High-Perf Tiers</text>
+      <text x="24" y="145" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#8B5CF6" font-weight="900">✔</tspan>  Full Root Access &amp; Custom OS Templates</text>
+      <text x="24" y="170" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#8B5CF6" font-weight="900">✔</tspan>  Hardware DDoS Protection</text>
+      <text x="24" y="195" font-family="-apple-system, sans-serif" font-size="13" font-weight="500" fill="#334155"><tspan fill="#8B5CF6" font-weight="900">✔</tspan>  Instant Setup &amp; Fast Rebuild Capabilities</text>
+      
+      <rect x="24" y="220" width="327" height="36" rx="8" fill="#F5F3FF" stroke="#DDD6FE" stroke-width="1" />
+      <text x="187" y="243" text-anchor="middle" font-family="-apple-system, sans-serif" font-size="13" font-weight="800" fill="#5B21B6">High Compute • Zero Upsell Gimmicks</text>
+    </g>
+  </g>
+</svg>

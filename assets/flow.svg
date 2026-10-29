@@ -1,0 +1,295 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 604" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="flowLightBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF" />
+      <stop offset="100%" stop-color="#F8FAFC" />
+    </linearGradient>
+
+    <!-- Vertical Energy Beam Multi-Color Gradient -->
+    <linearGradient id="vBeamGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#F59E0B" />
+      <stop offset="33%" stop-color="#10B981" />
+      <stop offset="66%" stop-color="#6366F1" />
+      <stop offset="100%" stop-color="#EC4899" />
+    </linearGradient>
+
+    <!-- Traveling Photon Particle Glow -->
+    <radialGradient id="photonGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="1" />
+      <stop offset="40%" stop-color="#F59E0B" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#F59E0B" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Card Drop Shadow -->
+    <filter id="cardShadow" x="-5%" y="-10%" width="110%" height="125%">
+      <feDropShadow dx="0" dy="4" stdDeviation="7" flood-color="#0F172A" flood-opacity="0.08" />
+    </filter>
+
+    <!-- Node Glow Shadow -->
+    <filter id="nodeShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="2" stdDeviation="4" flood-color="#0F172A" flood-opacity="0.2" />
+    </filter>
+  </defs>
+
+  <style>
+  <![CDATA[
+    /* 1. Trunk Line Pulse Laser - Smooth and Slow */
+    @keyframes vBeamPulse {
+      0% { stroke-dashoffset: 96; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .v-beam {
+      stroke-dasharray: 14 10;
+      animation: vBeamPulse 3.6s linear infinite;
+    }
+
+    /* 2. Traveling Photon - Slow, Calm Glide (5.5s) */
+    @keyframes photonTravel {
+      0%   { transform: translateY(75px); opacity: 0; }
+      12%  { opacity: 1; }
+      88%  { opacity: 1; }
+      100% { transform: translateY(530px); opacity: 0; }
+    }
+    .photon-particle {
+      animation: photonTravel 5.5s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    /* 3. Sonar Radar Ring Ripples - Calm and Relaxed (4.2s) */
+    @keyframes sonarWave {
+      0%   { r: 18; opacity: 0.7; stroke-width: 2; }
+      60%  { r: 27; opacity: 0; stroke-width: 3.5; }
+      100% { r: 18; opacity: 0; stroke-width: 2; }
+    }
+    .sonar-1 { animation: sonarWave 4.2s cubic-bezier(0.1, 0.8, 0.2, 1) infinite; }
+    .sonar-2 { animation: sonarWave 4.2s cubic-bezier(0.1, 0.8, 0.2, 1) infinite 1.05s; }
+    .sonar-3 { animation: sonarWave 4.2s cubic-bezier(0.1, 0.8, 0.2, 1) infinite 2.1s; }
+    .sonar-4 { animation: sonarWave 4.2s cubic-bezier(0.1, 0.8, 0.2, 1) infinite 3.15s; }
+
+    /* 4. Downward Flow Chevrons Bounce - Slow and Gentle (2.8s) */
+    @keyframes arrowBounce {
+      0%, 100% { transform: translateY(0); }
+      50%      { transform: translateY(2.5px); }
+    }
+    .arrow-flow-1 { animation: arrowBounce 2.8s ease-in-out infinite; }
+    .arrow-flow-2 { animation: arrowBounce 2.8s ease-in-out infinite 0.7s; }
+    .arrow-flow-3 { animation: arrowBounce 2.8s ease-in-out infinite 1.4s; }
+
+    /* 5. Interactive Card Hover */
+    .card-wrap {
+      transition: transform 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      cursor: default;
+    }
+    .card-wrap:hover {
+      transform: translateX(4px);
+    }
+  ]]>
+  </style>
+
+  <!-- Outer Canvas Base -->
+  <rect width="880" height="604" rx="18" fill="url(#flowLightBg)" stroke="#CBD5E1" stroke-width="1.2" filter="url(#cardShadow)" />
+
+  <!-- Continuous Vertical Pipeline Trunk Line -->
+  <line x1="52" y1="75" x2="52" y2="530" stroke="#E2E8F0" stroke-width="4.5" stroke-linecap="round" />
+  <!-- Slow Laser Beam Downward Movement -->
+  <line x1="52" y1="75" x2="52" y2="530" stroke="url(#vBeamGrad)" stroke-width="3.5" stroke-linecap="round" class="v-beam" />
+
+  <!-- Traveling Photon Energy Core -->
+  <g class="photon-particle">
+    <circle cx="52" cy="0" r="14" fill="url(#photonGlow)" />
+    <circle cx="52" cy="0" r="4" fill="#FFFFFF" />
+  </g>
+
+  <!-- Downward Flow Arrows Between Nodes -->
+  <!-- Arrow 1 -> 2 -->
+  <g class="arrow-flow-1" transform="translate(52, 156)">
+    <circle cx="0" cy="0" r="11" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.3" />
+    <polygon points="-4.5,-4 0,4.5 4.5,-4" fill="#F59E0B" />
+  </g>
+  <!-- Arrow 2 -> 3 -->
+  <g class="arrow-flow-2" transform="translate(52, 298)">
+    <circle cx="0" cy="0" r="11" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.3" />
+    <polygon points="-4.5,-4 0,4.5 4.5,-4" fill="#10B981" />
+  </g>
+  <!-- Arrow 3 -> 4 -->
+  <g class="arrow-flow-3" transform="translate(52, 440)">
+    <circle cx="0" cy="0" r="11" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.3" />
+    <polygon points="-4.5,-4 0,4.5 4.5,-4" fill="#6366F1" />
+  </g>
+
+  <!-- ==================== STEP 1 ==================== -->
+  <!-- Step 1 Node -->
+  <g transform="translate(52, 86)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#F59E0B" class="sonar-1" />
+    <circle cx="0" cy="0" r="20" fill="#FFFFFF" stroke="#F59E0B" stroke-width="3" filter="url(#nodeShadow)" />
+    <circle cx="0" cy="0" r="7" fill="#F59E0B" />
+  </g>
+
+  <!-- Step 1 Card -->
+  <g class="card-wrap" transform="translate(94, 24)">
+    <rect width="760" height="124" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <!-- Left Accent Color Bar -->
+    <rect width="6" height="124" rx="3" fill="#F59E0B" />
+
+    <!-- Static Icon Box (Locked firmly inside card) -->
+    <g transform="translate(20, 26)">
+      <rect width="72" height="72" rx="14" fill="#FEF3C7" stroke="#FDE68A" stroke-width="1.2" />
+      <!-- Icon floats strictly INSIDE this box -->
+      <text x="36" y="36" font-size="34" text-anchor="middle" dominant-baseline="central">
+        🛒
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="3.4s" repeatCount="indefinite" />
+      </text>
+    </g>
+
+    <!-- Header & Step Title (Centered baseline) -->
+    <text x="110" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17.5" font-weight="900" fill="#0F172A" dominant-baseline="central">Step 1 · Choose &amp; Order Your Plan</text>
+    
+    <!-- Badges Row (Centered baseline inside pill) -->
+    <rect x="110" y="54" width="150" height="24" rx="12" fill="#FFFBEB" stroke="#FDE68A" stroke-width="1" />
+    <text x="185" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#B45309" text-anchor="middle" dominant-baseline="central">Plans from ₹29.00 /mo</text>
+
+    <rect x="270" y="54" width="148" height="24" rx="12" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+    <text x="344" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#475569" text-anchor="middle" dominant-baseline="central">Zero Setup Gimmicks</text>
+
+    <!-- Description (Centered vertically in bottom space) -->
+    <text x="110" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="600" fill="#334155" dominant-baseline="central">Select NVMe Web, VPS, or Discord Bot hosting on <tspan fill="#D97706" font-weight="800">bracknodes.in</tspan>. Secure instant cart checkout.</text>
+
+    <!-- Right Highlight Pill Button (Centered horizontally & vertically) -->
+    <g transform="translate(594, 43)">
+      <rect width="146" height="38" rx="19" fill="#FFFBEB" stroke="#FCD34D" stroke-width="1.2" />
+      <text x="73" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#B45309" text-anchor="middle" dominant-baseline="central">Instant Order →</text>
+    </g>
+  </g>
+
+  <!-- ==================== STEP 2 ==================== -->
+  <!-- Step 2 Node -->
+  <g transform="translate(52, 228)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#10B981" class="sonar-2" />
+    <circle cx="0" cy="0" r="20" fill="#FFFFFF" stroke="#10B981" stroke-width="3" filter="url(#nodeShadow)" />
+    <circle cx="0" cy="0" r="7" fill="#10B981" />
+  </g>
+
+  <!-- Step 2 Card -->
+  <g class="card-wrap" transform="translate(94, 166)">
+    <rect width="760" height="124" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <!-- Left Accent Color Bar -->
+    <rect width="6" height="124" rx="3" fill="#10B981" />
+
+    <!-- Static Icon Box (Locked firmly inside card) -->
+    <g transform="translate(20, 26)">
+      <rect width="72" height="72" rx="14" fill="#D1FAE5" stroke="#A7F3D0" stroke-width="1.2" />
+      <!-- Icon floats strictly INSIDE this box -->
+      <text x="36" y="36" font-size="34" text-anchor="middle" dominant-baseline="central">
+        ⚡
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="3.4s" begin="0.85s" repeatCount="indefinite" />
+      </text>
+    </g>
+
+    <!-- Header & Step Title (Centered baseline) -->
+    <text x="110" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17.5" font-weight="900" fill="#0F172A" dominant-baseline="central">Step 2 · Instant Automated Provisioning</text>
+
+    <!-- Badges Row (Centered baseline inside pill) -->
+    <rect x="110" y="54" width="140" height="24" rx="12" fill="#ECFDF5" stroke="#A7F3D0" stroke-width="1" />
+    <text x="180" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#059669" text-anchor="middle" dominant-baseline="central">Zero-Delay Setup</text>
+
+    <rect x="260" y="54" width="158" height="24" rx="12" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+    <text x="339" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#475569" text-anchor="middle" dominant-baseline="central">Credentials in Seconds</text>
+
+    <!-- Description (Centered vertically in bottom space) -->
+    <text x="110" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="600" fill="#334155" dominant-baseline="central">Server deployment triggers automatically. Control panel access (cPanel / Pterodactyl) emailed instantly.</text>
+
+    <!-- Right Highlight Pill Button (Centered horizontally & vertically) -->
+    <g transform="translate(594, 43)">
+      <rect width="146" height="38" rx="19" fill="#ECFDF5" stroke="#6EE7B7" stroke-width="1.2" />
+      <text x="73" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#047857" text-anchor="middle" dominant-baseline="central">Ready in Seconds ⚡</text>
+    </g>
+  </g>
+
+  <!-- ==================== STEP 3 ==================== -->
+  <!-- Step 3 Node -->
+  <g transform="translate(52, 370)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#6366F1" class="sonar-3" />
+    <circle cx="0" cy="0" r="20" fill="#FFFFFF" stroke="#6366F1" stroke-width="3" filter="url(#nodeShadow)" />
+    <circle cx="0" cy="0" r="7" fill="#6366F1" />
+  </g>
+
+  <!-- Step 3 Card -->
+  <g class="card-wrap" transform="translate(94, 308)">
+    <rect width="760" height="124" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <!-- Left Accent Color Bar -->
+    <rect width="6" height="124" rx="3" fill="#6366F1" />
+
+    <!-- Static Icon Box (Locked firmly inside card) -->
+    <g transform="translate(20, 26)">
+      <rect width="72" height="72" rx="14" fill="#EDE9FE" stroke="#DDD6FE" stroke-width="1.2" />
+      <!-- Icon floats strictly INSIDE this box -->
+      <text x="36" y="36" font-size="34" text-anchor="middle" dominant-baseline="central">
+        🛡️
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="3.4s" begin="1.7s" repeatCount="indefinite" />
+      </text>
+    </g>
+
+    <!-- Header & Step Title (Centered baseline) -->
+    <text x="110" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17.5" font-weight="900" fill="#0F172A" dominant-baseline="central">Step 3 · Deploy Apps &amp; Auto-SSL Security</text>
+
+    <!-- Badges Row (Centered baseline inside pill) -->
+    <rect x="110" y="54" width="150" height="24" rx="12" fill="#EEF2FF" stroke="#C7D2FE" stroke-width="1" />
+    <text x="185" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#4F46E5" text-anchor="middle" dominant-baseline="central">1-Click Apps &amp; Git</text>
+
+    <rect x="270" y="54" width="162" height="24" rx="12" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+    <text x="351" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#475569" text-anchor="middle" dominant-baseline="central">Auto Let's Encrypt SSL</text>
+
+    <!-- Description (Centered vertically in bottom space) -->
+    <text x="110" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13.5" font-weight="600" fill="#334155" dominant-baseline="central">Install WordPress, Node.js, Python, or clone Git repos. Free Let's Encrypt SSL automatically configured.</text>
+
+    <!-- Right Highlight Pill Button (Centered horizontally & vertically) -->
+    <g transform="translate(594, 43)">
+      <rect width="146" height="38" rx="19" fill="#EEF2FF" stroke="#A5B4FC" stroke-width="1.2" />
+      <text x="73" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#4338CA" text-anchor="middle" dominant-baseline="central">Deploy &amp; Lock 🔒</text>
+    </g>
+  </g>
+
+  <!-- ==================== STEP 4 ==================== -->
+  <!-- Step 4 Node -->
+  <g transform="translate(52, 512)">
+    <circle cx="0" cy="0" r="18" fill="none" stroke="#EC4899" class="sonar-4" />
+    <circle cx="0" cy="0" r="20" fill="#FFFFFF" stroke="#EC4899" stroke-width="3" filter="url(#nodeShadow)" />
+    <circle cx="0" cy="0" r="7" fill="#EC4899" />
+  </g>
+
+  <!-- Step 4 Card -->
+  <g class="card-wrap" transform="translate(94, 450)">
+    <rect width="760" height="124" rx="14" fill="#FFFFFF" stroke="#CBD5E1" stroke-width="1.5" />
+    <!-- Left Accent Color Bar -->
+    <rect width="6" height="124" rx="3" fill="#EC4899" />
+
+    <!-- Static Icon Box (Locked firmly inside card) -->
+    <g transform="translate(20, 26)">
+      <rect width="72" height="72" rx="14" fill="#FCE7F3" stroke="#FBCFE8" stroke-width="1.2" />
+      <!-- Icon floats strictly INSIDE this box -->
+      <text x="36" y="36" font-size="34" text-anchor="middle" dominant-baseline="central">
+        🚀
+        <animateTransform attributeName="transform" type="translate" values="0,0; 0,-3; 0,0" dur="3.4s" begin="2.55s" repeatCount="indefinite" />
+      </text>
+    </g>
+
+    <!-- Header & Step Title (Centered baseline) -->
+    <text x="110" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="17.5" font-weight="900" fill="#0F172A" dominant-baseline="central">Step 4 · Live 24/7 (99.99% Uptime SLA)</text>
+
+    <!-- Badges Row (Centered baseline inside pill) -->
+    <rect x="110" y="54" width="154" height="24" rx="12" fill="#FDF2F8" stroke="#FBCFE8" stroke-width="1" />
+    <text x="187" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="800" fill="#DB2777" text-anchor="middle" dominant-baseline="central">Zero Sleep Bot Mode</text>
+
+    <rect x="274" y="54" width="164" height="24" rx="12" fill="#F1F5F9" stroke="#E2E8F0" stroke-width="1" />
+    <text x="356" y="66" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="12" font-weight="700" fill="#475569" text-anchor="middle" dominant-baseline="central">24/7 Real Human Help</text>
+
+    <!-- Description (Centered vertically in bottom space) -->
+    <text x="110" y="100" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600" fill="#334155" dominant-baseline="central">Bots never sleep with crash auto-restart. Ultra-low latency peering and DDoS Protection.</text>
+
+    <!-- Right Highlight Pill Button (Centered horizontally & vertically) -->
+    <g transform="translate(594, 43)">
+      <rect width="146" height="38" rx="19" fill="#FDF2F8" stroke="#F9A8D4" stroke-width="1.2" />
+      <text x="73" y="19" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="800" fill="#BE185D" text-anchor="middle" dominant-baseline="central">Always Online ✨</text>
+    </g>
+  </g>
+</svg>
